@@ -1,0 +1,11 @@
+ASUS VivoBook S
+
+OS:Windows 10 home
+
+CPU:Intel core i7-7500U
+
+HDD:1TB
+
+メモリ:8GB
+
+インストール済みソフト:Microsoft Office、カスペルスキーインターネットセキュリティ
