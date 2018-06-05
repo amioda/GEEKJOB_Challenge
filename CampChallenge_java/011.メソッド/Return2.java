@@ -10,12 +10,12 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.ArrayList;
 
 /**
  *
  * @author Ami
  */
-
 
 public class Return2 extends HttpServlet {
     
@@ -29,23 +29,11 @@ public class Return2 extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */ 
     
-  public static void main(String args[]){
-  String data[];
-
-  data = test();
-  System.out.println(data[1]);
-  System.out.println(data[2]);
-}
-    
-    private static String[] test(){
+    String[] prof (){
+        String[] prof = {"1","01/01","東京"};
         
-        String data[] = new String[3];
-        data[0] = "ID";
-        data[1] = "生年月日";
-        data[2] = "住所";
-        
-        return data;
-}
+        return prof;
+    }
         
                 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
@@ -54,9 +42,16 @@ public class Return2 extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         
         PrintWriter out = response.getWriter();
-                
+        
+        String[] return_prof = prof();
+        
+        int i = 0;
+        
+        for(i=1;i<=2;i++){
             
-            
+        out.print(return_prof[i]);    
+        out.print("<br>");    
+        }   
             
     }
 
