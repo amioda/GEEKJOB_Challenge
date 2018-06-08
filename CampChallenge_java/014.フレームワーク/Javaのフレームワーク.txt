@@ -1,0 +1,53 @@
+Java EE
+　特徴：正式名称は「Java Platform, Enterprise Edition」
+　　　　標準的なJavaアプリ開発に必要な機能のほか、
+　　　　企業向けのWebアプリ開発用の機能も追加で含まれている。
+　　　　会員登録や、ショッピングサイトのカートに入れる機能などの処理が可能
+　
+　導入方法：JDK（Java SE Development Kit）をダウンロード。
+　　　　　　NetBeansとあわせて使う。
+
+　使い方：NetBeansにて、Server選択で
+　　　　　GlassFish　Serverを選択することによって使用可能。
+
+
+
+
+
+Apache Struts
+　特徴：JavaサーブレットやJSPを組み合わせてアプリケーションを構築するのに
+　　　　必要な機能を提供するオープンソースのフレームワーク。
+　　　　画面遷移、言語切り替え、入力チェックなどが行える。
+
+　導入方法：http://struts.apache.org/download.cgiからStrutsをダウンロード
+
+　使い方：NetBeansにて、フレームワークパネルで
+　　　　　Strutsを選択することによって使用可能。
+　　　　　
+
+
+
+　　
+Play Framework
+　特徴：他のフレームワークよりも軽量で利用しやすい。
+　　　　動作が早く、Webアプリなどに使われる。
+
+　導入方法：https://www.playframework.com/からダウンロード
+
+　使い方：現時点ではNetBeansでの生成はサポートしていない。
+　　　　　 NetBeans SBT Pluginを使用し、Scalaプロジェクトを生成することで使用可能。
+
+
+
+
+
+Spring Framework
+　特徴：Dependency Injectionと呼ばれる仕組みが導入されており、変更に強い。
+　　　　専用のテストプログラムを持っており、一つ一つの処理がうまくいっているかを
+　　　　テストすることが可能。
+　　　　Webシステム、Webサービスに使われている。
+
+　導入方法：http://spring.io/toolsからSpring Tool Suiteをダウンロード。
+
+　使い方：NetBeansにて、フレームワークパネルで
+　　　　　Spring Web MVCを選択することによって使用可能。
