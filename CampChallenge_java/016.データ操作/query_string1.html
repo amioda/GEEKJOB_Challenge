@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <form action="query_string2.jsp" method="GET">
+            
+            <!--商品の種類を選択-->
+            <p> 商品の種別を選択してください　</p>
+            雑貨<input type="radio" name="type" value="1" checked="checked">
+            生鮮食品<input type="radio" name="type" value="2">
+            その他<input type="radio" name="type" value="3">
+
+            <br><br>
+            
+            <!--商品の個数を選択-->
+            <p> 商品の数量を選択してください　</p>
+            数量<select name="count">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            
+            <br><br>
+            
+            <!--SUBMIT-->
+            <input type="submit" value="送信" />
+        
+        </form>
+        
+    </body>
+</html>
